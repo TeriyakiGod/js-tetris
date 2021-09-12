@@ -1,35 +1,77 @@
 body {
-  display: inline-block;
   background-color: black;
-  height: 900px;
+  color: white;
+  overflow: hidden;
+  font-family: 'Press Start 2P', cursive;
+}
+
+h1{
+  text-align: center;
 }
 
 #scoreContainer {
   color: white;
-  position: fixed;
-  top: 10px;
-  left: 420px;
+  position: relative;
+  top: -1530px;
+  right: -235px;
+}
+
+#score{
+  margin: 10px;
 }
 
 #debug {
   color: white;
-  position: fixed;
-  top: 120px;
-  left: 420px;
+
 }
 
 #debugLog {
   color: white;
-  position: fixed;
-  top: 100px;
-  left: 420px;
+
+}
+
+#gameContainer{
+  width: 800px;
+  text-align: center;
+  position: relative;
+  margin: auto;
+  height: 800px;
+  color: white;
 }
 
 #tetris {
-  position: fixed;
-  top: -790px;
+  display: inline;
+  position: relative;
+  top: -800px;
+  right: -20px;
 }
 
-html {
-  height: 1000px;
+#nextBlockContainer{
+  display: inline;
+  position: relative;
+  top: -1570px;
+  left: 30px;
+  font-size: medium;
+}
+
+#nextBlock{
+  position: relative;
+  top: 20px;
+  right: -205px;
+}
+
+p{
+  color: white;
+}
+
+button{
+  background-color: rgb(31, 31, 31);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px;
 }
