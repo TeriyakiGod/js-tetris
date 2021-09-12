@@ -1,0 +1,35 @@
+body {
+  display: inline-block;
+  background-color: black;
+  height: 900px;
+}
+
+#scoreContainer {
+  color: white;
+  position: fixed;
+  top: 10px;
+  left: 420px;
+}
+
+#debug {
+  color: white;
+  position: fixed;
+  top: 120px;
+  left: 420px;
+}
+
+#debugLog {
+  color: white;
+  position: fixed;
+  top: 100px;
+  left: 420px;
+}
+
+#tetris {
+  position: fixed;
+  top: -790px;
+}
+
+html {
+  height: 1000px;
+}
