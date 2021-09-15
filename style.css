@@ -13,8 +13,9 @@ h1 {
 #scoreContainer {
   color: white;
   position: relative;
-  top: -1530px;
-  right: -235px;
+  top: -1600px;
+  right: -500px;
+  width: 280px;
 }
 
 #score {
@@ -32,7 +33,6 @@ h1 {
 #gameContainer {
   width: 800px;
   text-align: center;
-  position: relative;
   margin: auto;
   height: 800px;
   color: white;
@@ -108,4 +108,10 @@ button {
 
 #arrowDown {
   transform: rotate(-90deg);
+}
+
+#keys {
+  text-align: left;
+  position: relative;
+  left: 30px;
 }
