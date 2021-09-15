@@ -2,10 +2,11 @@ body {
   background-color: black;
   color: white;
   overflow: hidden;
-  font-family: 'Press Start 2P', cursive;
+  font-family: "Press Start 2P", cursive;
+  width: 100vw;
 }
 
-h1{
+h1 {
   text-align: center;
 }
 
@@ -16,21 +17,19 @@ h1{
   right: -235px;
 }
 
-#score{
+#score {
   margin: 10px;
 }
 
 #debug {
   color: white;
-
 }
 
 #debugLog {
   color: white;
-
 }
 
-#gameContainer{
+#gameContainer {
   width: 800px;
   text-align: center;
   position: relative;
@@ -42,11 +41,11 @@ h1{
 #tetris {
   display: inline;
   position: relative;
-  top: -800px;
-  right: -20px;
+  top: -400px;
+  right: -200px;
 }
 
-#nextBlockContainer{
+#nextBlockContainer {
   display: inline;
   position: relative;
   top: -1570px;
@@ -54,17 +53,17 @@ h1{
   font-size: medium;
 }
 
-#nextBlock{
+#nextBlock {
   position: relative;
   top: 20px;
-  right: -205px;
+  right: -250px;
 }
 
-p{
+p {
   color: white;
 }
 
-button{
+button {
   background-color: rgb(31, 31, 31);
   border: none;
   color: white;
@@ -74,4 +73,39 @@ button{
   display: inline-block;
   font-size: 16px;
   margin: 10px;
+}
+
+@media only screen and (min-height: 1000px) {
+  #tetris {
+    display: inline;
+    position: relative;
+    top: -400px;
+    right: -200px;
+  }
+}
+
+@media only screen and (min-height: 1800px) {
+  #tetris {
+    display: inline;
+    position: relative;
+    top: -400px;
+    right: -200px;
+  }
+}
+
+.arrow {
+  width: 30px;
+  height: 30px;
+}
+
+#arrowRight {
+  transform: rotate(180deg);
+}
+
+#arrowUp {
+  transform: rotate(90deg);
+}
+
+#arrowDown {
+  transform: rotate(-90deg);
 }

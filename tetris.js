@@ -9,7 +9,7 @@ const scoreElement = document.getElementById("score");
 
 const row = 40;
 const column = 10;
-const cellSize = 40;
+let cellSize = 20;
 const vacant = 'BLACK'; //Color of a vacant cell
 
 //Variables
@@ -18,6 +18,9 @@ let gameOver = false;
 let score = 0;
 let p = generateRandomPiece();
 let nextPiece = generateRandomPiece();
+
+//Music
+
 
 //CellFilling
 function fillCell(x, y, color) {
